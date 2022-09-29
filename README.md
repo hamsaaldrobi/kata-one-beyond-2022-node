@@ -78,3 +78,15 @@ Fastest is cesar
 │    3    │    'cesar'    │ '0.002 ms' │ '2.091 μs' │ '11.585x - 1,058.514% ' │ 100000  │ 'this is a message' │
 └─────────┴───────────────┴────────────┴────────────┴─────────────────────────┴─────────┴─────────────────────┘
 ```
+
+## Take in mind
+
+Don't forget to run 
+```sh
+nvm use
+```
+and 
+```sh
+npm install
+```
+before trying to run the scripts.
