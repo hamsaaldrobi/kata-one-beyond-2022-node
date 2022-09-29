@@ -30,13 +30,13 @@ module.exports = misteryMessage => {
     }
 
     var messageConverted = [];
-    var split1 = misteryMessage.split("   ");
+    var words = misteryMessage.split("   ");
   
-    for(var word = 0; word < split1.length; word++) {
-      var split2 = split1[word].split(" ");
+    for(var wordIdx = 0; wordIdx < words.length; wordIdx++) {
+      var letters = words[wordIdx].split(" ");
       
-      for(var letter = 0; letter < split2.length; letter++) {
-        messageConverted.push(alphabet[split2[letter]]);
+      for(var letterIdx = 0; letterIdx < letters.length; letterIdx++) {
+        messageConverted.push(alphabet[letters[letterIdx]]);
       }
   
       messageConverted.push(" ");
