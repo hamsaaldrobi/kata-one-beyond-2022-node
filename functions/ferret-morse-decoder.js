@@ -52,6 +52,4 @@ const decode = (morseMessage) => {
     return messageDecoded;    
 }
 
-module.exports = {
-    decode
-}
+module.exports = decode;
